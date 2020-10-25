@@ -82,31 +82,31 @@ app.listen(3000);
 
 
 
-//设置发送交易数据
-// function sendDataToContract(){
-//   restoreWallet();
-//   const encodedData = ethabi
-//     .encodeMethod(abi[2], ["rickey22", "qtum", 10, 1000])
-//     .substr(2);
-//   return encodedData;
-// }
+//结束通道
+function sendDataToContract(){
+  restoreWallet();
+  const encodedData = ethabi
+    .encodeMethod(abi[1], ["rickey22",10])
+    .substr(2);
+  return encodedData;
+}
 
-// var encodedData = sendDataToContract();
+var encodedData = sendDataToContract();
 
-// //提交交易获取交易号
-// async function getTx() {
-//   var rawTx = await webWallet
-//     .getWallet()
-//     .generateSendToContractTx(
-//       contractAddress,
-//       encodedData,
-//       gasLimit,
-//       gasPrice,
-//       fee
-//     );
-//   const res = await webWallet.getWallet().sendRawTx(rawTx);
-//   console.log(res);
-// }
+//提交交易获取交易号
+async function getTx() {
+  var rawTx = await webWallet
+    .getWallet()
+    .generateSendToContractTx(
+      contractAddress,
+      encodedData,
+      gasLimit,
+      gasPrice,
+      fee
+    );
+  const res = await webWallet.getWallet().sendRawTx(rawTx);
+  console.log(res);
+}
 
 // getTx(encodedData);
 
