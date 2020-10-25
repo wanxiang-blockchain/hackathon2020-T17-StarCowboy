@@ -1,0 +1,25 @@
+.viewAmount{
+  font-weight: bold;
+  color: #fff;
+  width: 90%;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  background: #1D3DEE;
+  max-width: 0px auto;
+  margin: 0px auto;
+  margin-top: 10rpx;
+  font-size: 32rpx;
+  border-radius: 10rpx;
+}
+.inputbg{
+  width: 84%;
+  height: 100rpx;
+  line-height: 100rpx;
+  background-color: #eee;
+  display: block;
+  margin: 0px auto;
+  border-radius: 10rpx;
+  margin-top:20rpx;
+  padding: 0px 10rpx;
+}

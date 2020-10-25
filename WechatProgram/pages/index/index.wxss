@@ -1,0 +1,78 @@
+page{
+  background:#F4F5FE;
+}
+
+.point{
+  width: 100%;
+  text-align: center;
+}
+.card{
+  border-radius: 20rpx;
+  margin: 0px auto;
+  margin-top: 30rpx;
+  background: #222C46;
+  width: 90%;
+  height: auto;
+}
+.card_t{
+  width: 90%;
+  margin: 0px auto;
+  padding-top: 20rpx;
+  border-bottom: 1px solid #36456D;
+  padding-bottom: 20rpx;
+}
+.userhead{
+  border:2px solid #fff;
+  width:120rpx;
+  height: 120rpx;
+  display: block;
+  border-radius: 100rpx;
+  float: left;
+}
+.username{
+  font-weight: bold;
+  color: #fff;
+  text-align: right;
+  height: 120rpx;
+  line-height: 120rpx;
+  float: right;
+}
+.canvas {
+  width: 150px;
+  height: 150px;
+  margin: 0px auto;
+}
+.qrcode{
+  margin: 20px auto;
+}
+.card_b{
+  width: 90%;
+  margin: 0px auto;
+}
+.card_b_t{
+  width: 100%;
+  text-align: center;
+  font-size: 36rpx;
+  color: #E89311;
+}
+.card_b_b{
+  width: 100%;
+  text-align: center;
+  font-size: 30rpx;
+  color: #16A499;
+  padding-bottom:20rpx ;
+}
+.viewAmount{
+  font-weight: bold;
+  color: #fff;
+  width: 90%;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  background: #1D3DEE;
+  max-width: 0px auto;
+  margin: 0px auto;
+  margin-top: 10rpx;
+  font-size: 32rpx;
+  border-radius: 10rpx;
+}

@@ -1,0 +1,20 @@
+page{
+  background: #383C50;
+}
+.container{
+  width: 90%;
+  margin: 0px auto;
+}
+.tit{
+  font-size: 48rpx;
+  font-weight: bold;
+  color: #42948C;
+  width: 100%;
+  text-align: left;
+}
+.val{
+  font-size: 64rpx;
+  color: #ffffff;
+  width: 100%;
+  text-align: left;
+}

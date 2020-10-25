@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/manage/manage",
+    "pages/verificationUser/verificationUser",
+    "pages/amount/amount",
+    "pages/reducePoint/reducePoint"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#3D56C2",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "text": "用户端",
+        "pagePath": "pages/index/index",
+        "iconPath": "images/user_no.png",
+        "selectedIconPath": "images/user_sel.png"
+      },
+      {
+        "text": "验证器",
+        "pagePath": "pages/manage/manage",
+        "iconPath": "images/manage_no.png",
+        "selectedIconPath": "images/manage_sel.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

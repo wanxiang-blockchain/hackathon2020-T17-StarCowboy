@@ -1,0 +1,31 @@
+
+<view class="item" bindtap="toAuthentication">
+  <image class="item_l" src="../../images/authentication.png"></image>
+  <view class="item_r">楼宇身份验证</view>
+  <view style="clear:both;"></view>
+</view>
+<!-- <view class="item" bindtap="toReduce">
+  <image class="item_l" src="../../images/shop.png"></image>
+  <view class="item_r">园区消费扣款</view>
+  <view style="clear:both;"></view>
+</view> -->
+<view class="item" bindtap="toReduce">
+  <image class="item_l" src="../../images/card.png"></image>
+  <view class="item_r">楼宇餐饮</view>
+  <view style="clear:both;"></view>
+</view>
+<view class="item" bindtap="toReduce">
+  <image class="item_l" src="../../images/car.png"></image>
+  <view class="item_r">楼宇停车费</view>
+  <view style="clear:both;"></view>
+</view>
+<view class="item" bindtap="toReduce">
+  <image class="item_l" src="../../images/jianshen.png"></image>
+  <view class="item_r">楼宇健身室</view>
+  <view style="clear:both;"></view>
+</view>
+<view class="item" bindtap="toReduce">
+  <image class="item_l" src="../../images/chat.png"></image>
+  <view class="item_r">楼宇会议室租用</view>
+  <view style="clear:both;"></view>
+</view>

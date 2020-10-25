@@ -1,0 +1,31 @@
+page{
+  background:#F4F5FE;
+}
+.item{
+  width: 90%;
+  margin: 0px auto;
+  height: auto;
+  border-radius: 20rpx;
+  background: #fff;
+  padding: 0px 10rpx;
+  padding: 30rpx 0rpx;
+  margin-bottom: 20rpx;
+}
+.item_l{
+  width: 72rpx;
+  height: 72rpx;
+
+  display: block;
+  float: left;
+  margin-left: 10rpx;
+}
+.item_r{
+  font-size: 36rpx;
+  font-weight: bold;
+  margin-left: 10rpx;
+  float: left;
+  height: 72rpx;
+  line-height: 72rpx;
+  line-height: 72rpx;
+ 
+}

@@ -1,0 +1,22 @@
+
+
+<view class="card">
+<view class="card_t">
+  <image class="userhead" mode="scaleToFill" src="../../images/userhead.png"></image>
+  <view class="username">Spike</view>
+  <view style="clear:both;"></view>
+</view>
+<view class="qrcode">
+<canvas class='canvas' canvas-id='canvas' ></canvas>
+</view>
+<view class="card_b">
+  <view class="card_b_t">
+    万向区块链实验室
+  </view>
+  <view class="card_b_b">
+    虹口科技金融大厦，虹口区-塘沽路463号
+  </view>
+  <view style="clear:both;"></view>
+</view>
+</view>
+<view class="viewAmount" bindtap="toAmount">消费值</view>

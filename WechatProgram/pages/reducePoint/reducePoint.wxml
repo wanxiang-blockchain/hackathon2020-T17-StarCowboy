@@ -1,0 +1,4 @@
+<input type="number" class="inputbg" bindinput="pointInput"/>
+
+<view class="viewAmount" bindtap="reducePoint">扣费</view>
+

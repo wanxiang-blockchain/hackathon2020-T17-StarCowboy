@@ -1,0 +1,6 @@
+<view class="container">
+  <view class="tit">链上值</view>
+  <view class="val">{{chainPoint}}</view>
+  <view class="tit" style="margin-top:100rpx;">链下已花费</view>
+  <view class="val">{{offlineSpent}}</view>
+</view>
